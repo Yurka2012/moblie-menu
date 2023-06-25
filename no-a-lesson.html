@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework</title>
+    <style>
+      .team-list-item {
+        width: 450px;
+        height: 622px;
+        text-align: center;
+      }
+      .miha {
+        width: 450px;
+        height: 460px;
+      }
+      .social-media {
+        width: 206px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .social-media-list-item {
+        width: 20px;
+        height: 20px;
+      }
+      .social-media-list-item:not(:last-child) {
+        margin-right: 10px;
+      }
+      .social-media {
+        margin: 0 auto;
+      }
+
+      /* кінець заняття */
+
+      @media (min-width: 700px) {
+        .team-list-item {
+          width: 750px;
+          height: 1022px;
+          text-align: center;
+          font-size: xx-large;
+        }
+        .miha {
+          width: 670px;
+          height: 660px;
+        }
+        .social-media {
+          width: 606px;
+          height: 44px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .social-media-list-item {
+          width: 50px;
+          height: 50px;
+        }
+        .social-media-list-item:not(:last-child) {
+          margin-right: 13 px;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .team-list-item {
+          width: 1250px;
+          height: 1222px;
+          text-align: center;
+          font-size: 67px;
+        }
+        .miha {
+          width: 670px;
+          height: 660px;
+        }
+        .social-media {
+          width: 606px;
+          height: 44px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .social-media-list-item {
+          width: 50px;
+          height: 50px;
+        }
+        .social-media-list-item:not(:last-child) {
+          margin-right: 13 px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class='comanda'>
+      <div class='container'>
+          <h2 class='nasha-comanda'>
+              Nasha comanda
+          </h2>
+
+          <ul class="team">
+            <li class='team-list-item'>
+                <img src='miha.jpg' alt='.' class="miha"/>
+                <div class="cont">
+                  <h3>Великий Міха</h3>
+                  <p>великий міха топчик</p>
+                  <ul class='social-media'>
+                      <li class='social-media-list-item'><a href="./"> <img src="./twitter.png" alt="."/></a></li>
+                      <li class='social-media-list-item'><a href="./"> <img src="./twitter.png" alt="."/></a></li>
+                      <li class='social-media-list-item'><a href="./"> <img src="./twitter.png" alt="."/></a></li>
+                      <li class='social-media-list-item'><a href="./"> <img src="./twitter.png" alt="."/></a></li>
+                  </ul>
+                </div>
+            </li>
+        </ul>
+  </body>
+</html>

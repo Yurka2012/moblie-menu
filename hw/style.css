@@ -1,0 +1,96 @@
+footer {
+  background: #2f303a;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+p,
+span,
+a {
+  color: azure;
+}
+a{
+    text-transform: none;
+    text-decoration: none;
+}
+ul {
+  text-align: center; /* Центрирование элементов списка по горизонтали */
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px; /* Отступ между элементами списка (опционально) */
+}
+footer {
+  align-items: center;
+  text-align: center;
+}
+input {
+  width: 450px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.sub {
+  margin-top: 60px;
+}
+
+.kkk {
+  margin-top: 60px;
+}
+button {
+  width: 200px;
+  height: 50px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+nav {
+  text-align: center;
+  align-items: center;
+}
+address {
+  /* width: 232px;
+height: 21px; */
+
+  font-family: "Roboto";
+  /* font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px; */
+  /* or 171% */
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  /* margin-left: ; */
+}
